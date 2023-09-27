@@ -1,7 +1,7 @@
 number = input("Please enter in a number:")
-if number % 2 == 0:
+if int(number) % 2 == 0:
     print("even")
-elif number % 2 == 1:
+elif int(number) % 2 == 1:
     print("odd")
 
 
