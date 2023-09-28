@@ -1,0 +1,15 @@
+bill = int(input("Please enter your bill:"))
+tip = input("Please type in one of these, depending on service. Bad, Okay, Good, Great: ")
+Bad = bill*0
+Okay = bill*0.15
+Good = bill*0.2
+Great = bill*0.25
+print("This is your bill")
+if tip == "Bad":
+    print(Bad)
+if tip == "Okay":
+    print(Okay)
+if tip == "Good":
+    print(Good)
+if tip == "Great":
+    print(Great)
