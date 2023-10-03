@@ -1,17 +1,31 @@
 
 
 x = input("Are you in space?(Yes or No):")
-y = input("Are you wearing a spacesuit?(Yes or No)")
+y = input("Are you wearing a spacesuit?(Yes or No):")
+
+def glitch(x,y):
+    if x != "Yes":
+        if y != "Yes":
+            if x != "No":
+                if y != "No":
+                    print("Incorrect Input")
+                    exit()
 
 def checker(x,y):
+    glitch(x,y)
     if x == y:
         print("Safe")
     elif x != y:
         print("Not Safe")
 checker(x,y)
+    
 
-def glitchchecker_x(x):
-  if bool(x):
-    print("Valid")
-glitchchecker_x(x)
+    
+ 
 
+#def checker(x,y):
+    #if x == y:
+        #print("Safe")
+    #elif x != y:
+        #print("Not Safe")
+#checker(x,y)
