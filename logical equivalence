@@ -23,9 +23,3 @@ checker(x,y)
     
  
 
-#def checker(x,y):
-    #if x == y:
-        #print("Safe")
-    #elif x != y:
-        #print("Not Safe")
-#checker(x,y)
