@@ -1,5 +1,13 @@
-num = int(input("Please enter a number:"))
-for i in range (1, num + 1):
-     if num % i == 0:
-       print(int(i[0]))
-       print(int(i[-1]))
+num1 = int(input("Please enter a number:"))
+for i1 in range (1, num1 + 1):
+     if num1 % i1 == 0:
+        list.insert(i1)
+print(i1[0])
+num2 = int(input("Please enter a number:"))
+for i2 in range (1, num2 + 1):
+     if num2 % i2 == 0:
+        list.insert(i2)
+        print(i2[10])
+        
+
+
