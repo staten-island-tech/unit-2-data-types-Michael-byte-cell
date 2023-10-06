@@ -21,6 +21,3 @@ for a in lst1:
                common_factors.append(a)
 z = common_factors[-1]
 print(z)
-
-
-
