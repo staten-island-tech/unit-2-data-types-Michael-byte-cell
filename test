@@ -1,0 +1,5 @@
+num = [1,15]
+index = 0
+while index <len(num):
+    print(num[index])
+    index = index + 1
