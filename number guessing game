@@ -8,7 +8,7 @@ if number == x:
         print("You got it!")
         print("Here is how many tries it took you to get it!")
         print(incorrect_guess[-1])
-      
+
 else:
     if number>x:
         print("Incorrect Input, Please try Again")
@@ -17,7 +17,6 @@ else:
     if number<x:
         print("Incorrect Input, Please try Again")
         incorrect_guess.append(incorrect_guess)
-
 #add in a way to repeat the function until the input is correct
 
 
