@@ -4,26 +4,21 @@ x = random.randint(1,10)
 incorrect_guess = []
 number = int(input("Please enter a number ranging from 1-10:"))
 print(x)
-for i in range (x):
-    if number == i:
+if number == x:
         print("You got it!")
         print("Here is how many tries it took you to get it!")
         print(incorrect_guess[-1])
-        break
+      
 else:
-    if number>i:
+    if number>x:
         print("Incorrect Input, Please try Again")
         incorrect_guess.append(incorrect_guess)
 
-    if number<i:
+    if number<x:
         print("Incorrect Input, Please try Again")
         incorrect_guess.append(incorrect_guess)
 
 #add in a way to repeat the function until the input is correct
-#also figure out how to 
-    
-
-
 
 
 
