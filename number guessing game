@@ -7,7 +7,7 @@ while 1:
     while 1:
         number = int(input("Please enter a number ranging from 1-10:"))
         if (number < 1 or number > 10):
-            print("Try again, " + str(number) + " is incorrect, expected 1 to 10 range...")
+            print("Try again, " + str(number) + " is incorrect, a number from the range 1-10 is expected...")
         else:
             break;
     
@@ -16,8 +16,4 @@ while 1:
 
     else:   
         print("Hmm, please try again...")
-        incorrect_guess.append(incorrect_guess)
-
-    if number<x:
-        print("Incorrect Input, Please try Again")
         incorrect_guess.append(incorrect_guess)
