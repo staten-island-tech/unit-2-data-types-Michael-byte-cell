@@ -2,16 +2,6 @@ import random
 x = random.randint(1,10)
 incorrect_guess = []
 
-number = int(input("Please enter a number ranging from 1-10:"))
-
-print(x)
-while number != x:
-    if number == x:
-        print("You got it!")
-        print("Here is how many tries it took you to get it!")
-        print(incorrect_guess[-1])
-
-x = random.randint(1,10)
 print (x)
 while 1:
     while 1:
