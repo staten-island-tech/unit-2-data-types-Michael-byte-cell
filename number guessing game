@@ -1,5 +1,4 @@
 import random
-<<<<<<< HEAD
 x = random.randint(1,10)
 incorrect_guess = []
 
@@ -32,33 +31,3 @@ while 1:
     if number<x:
         print("Incorrect Input, Please try Again")
         incorrect_guess.append(incorrect_guess)
-=======
-x = random.randint(1,10)
-incorrect_guess = []
-number = int(input("Please enter a number ranging from 1-10:"))
-if number != (1,10):
-    print("Incorrect Input")
-print(x)
-if number == x:
-        print("You got it!")
-        print("Here is how many tries it took you to get it!")
-        print(incorrect_guess[-1])
-
-else:
-    if number>x:
-        print("Incorrect Input, Please try Again")
-        incorrect_guess.append(incorrect_guess)
-
-    if number<x:
-        print("Incorrect Input, Please try Again")
-        incorrect_guess.append(incorrect_guess)
-#add in a way to repeat the function until the input is correct
-
-
-
-
-
-
-
-    
->>>>>>> parent of 2e88ff7 (Update number guessing game)
