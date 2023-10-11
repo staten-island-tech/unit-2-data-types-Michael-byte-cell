@@ -1,7 +1,7 @@
 import random
-
+x = random(1,10)
 incorrect_guess = []
-<<<<<<< HEAD
+
 number = int(input("Please enter a number ranging from 1-10:"))
 
 print(x)
@@ -10,7 +10,7 @@ while number != x:
         print("You got it!")
         print("Here is how many tries it took you to get it!")
         print(incorrect_guess[-1])
-=======
+
 x = random.randint(1,10)
 print (x)
 while 1:
@@ -27,7 +27,7 @@ while 1:
     else:
         print("Hmm, please try again...")
         incorrect_guess.append(1)
->>>>>>> 2e88ff75bc9d41bf8d6c431f7f23bcbd4d94a51f
+
 
         
 
@@ -37,6 +37,11 @@ while 1:
         incorrect_guess.append(incorrect_guess)
 
 =======
+=======
+
+        
+
+>>>>>>> 2e88ff75bc9d41bf8d6c431f7f23bcbd4d94a51f
 #add in a way to repeat the function until the input is correct
 >>>>>>> 2e88ff75bc9d41bf8d6c431f7f23bcbd4d94a51f
 
