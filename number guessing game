@@ -31,19 +31,11 @@ while 1:
 
         
 
-<<<<<<< HEAD
     if number<x:
         print("Incorrect Input, Please try Again")
         incorrect_guess.append(incorrect_guess)
 
-=======
-=======
 
-        
-
->>>>>>> 2e88ff75bc9d41bf8d6c431f7f23bcbd4d94a51f
-#add in a way to repeat the function until the input is correct
->>>>>>> 2e88ff75bc9d41bf8d6c431f7f23bcbd4d94a51f
 
 
 
