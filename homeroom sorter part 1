@@ -1,0 +1,18 @@
+last = input("Please enter in your last name: ")
+
+last_initial = (last[0])
+
+if last_initial == "A":
+    print("Your Homeroom is room 101")
+
+elif last_initial == "a":
+    print("Your Homeroom is room 101")
+
+elif last_initial == "B":
+    print("Your Homeroom is room 102")   
+
+elif last_initial == "b":
+    print("Your Homeroom is room 102")
+
+else:
+    print("Your Homeroom is room 103")
