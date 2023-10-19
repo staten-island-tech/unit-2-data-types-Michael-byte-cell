@@ -1,0 +1,16 @@
+print("Lets play some MadLibs!")
+name = input("Please enter your name:")
+verb1 = input("Now, Enter a verb:")
+verb2 = input("Enter another verb:")
+
+print("We're getting there!")
+noun = input("Please enter a noun:")
+number = input("Enter in a counting number:")
+print("Just one more!")
+adjective = input("Now, please enter a adjective:")
+
+print("Great! Lets see what you made!")
+
+Madlib = "It was a dark night when " + name + " was "+ verb1 + " outside." + " Everything was great until " + noun + " attacked! " + name + " was really " + adjective + " when the " + noun + " attacked! " + name + " began " + verb2 + " away into the night. " + name  + " had been " + verb2 + " for" + " " + number +  " hours when they finally got back to their house, the " + noun + " was nowhere to be seen, all of a sudden, " + name + " had woken up in their bed, it turns out it was all just a dream. "
+
+print(Madlib)
