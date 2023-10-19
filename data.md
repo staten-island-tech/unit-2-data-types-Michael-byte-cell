@@ -74,7 +74,7 @@ if day_of_week == "Friday":
     print("correct")
 else:
     print("incorrect")
-```
+```num
 Here, the user will either input Friday or not. It is either Friday or it is not. If the day of the week is Friday then we will print "correct". In all other situations we will print "incorrect"
 ## F Strings
 Variables can be used inside Strings by adding an F before the String and using {} templates inside the String. See below
