@@ -6,11 +6,7 @@ homeroom_1 = ["A","a","B","b","C","c","D","d","E","e","F","f","G","g"]
 homeroom_2 = ["H","h","I","i","J","j","K","k","L","l","M","m","N","n","O","o","P","p"]
 
 if last_initial in homeroom_1:
-    print("You are in Homeroom room 101")
+    print("You are in Homeroom 101")
 
 elif last_initial in homeroom_2:
-    print("You are in Homeroom room 102")
-
-elif last_initial != homeroom_1 or homeroom_2:
-    print("You are in Homeroom room 103")
-
+    print("You are in Homeroom 102")
